@@ -94,12 +94,13 @@ a:hover {
 
 /* Style the project images */
 .project-image {
-    max-width: 100%; /* Make sure images don't exceed their container width */
+    max-width: 100%; /* Set the maximum width to prevent images from exceeding their container width */
     max-height: 150px; /* Set the maximum height of the images */
     display: block; /* Remove extra spacing below images */
     margin: 0 auto; /* Center-align images horizontally */
     transition: opacity 0.3s ease-in-out; /* Add a transition for opacity change */
 }
+
 
 /* Hover effect for the project boxes */
 .project-box:hover {

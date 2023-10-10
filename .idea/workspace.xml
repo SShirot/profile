@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d33ed4-97d9-4feb-aad0-42d2e000df1a" name="Changes" comment="first cmm">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "16.16.0",
     "javascript.nodejs.core.library.typings.version": "16.18.58",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/profile",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/profile/src/main/webapp/index.html",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,7 +84,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.13" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8484/profile_war/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:63342/profile/src/main/webapp/index.html" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="profile:war">
@@ -180,7 +183,7 @@
       <workItem from="1696395799302" duration="1097000" />
       <workItem from="1696406326681" duration="639000" />
       <workItem from="1696406978711" duration="835000" />
-      <workItem from="1696916226245" duration="5694000" />
+      <workItem from="1696916226245" duration="8677000" />
     </task>
     <task id="LOCAL-00001" summary="first cmm">
       <option name="closed" value="true" />
