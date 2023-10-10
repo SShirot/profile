@@ -1,0 +1,142 @@
+/* Apply the background image to the entire page */
+body {
+    background-image: url('./img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Text color */
+}
+
+/* Style the header and navigation bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 10px 0;
+
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00aaff; /* Change link color on hover */
+}
+
+/* Style headings and text */
+h1, h2, h3 {
+    color: #00aaff; /* Highlight headings in a futuristic blue color */
+}
+
+/* Style buttons */
+.btn {
+    background-color: #00aaff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style links */
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+.about-content {
+    display: flex;
+    align-items: center; /* Vertically center align the content */
+}
+
+.about-text {
+    flex: 1; /* Take up remaining space */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px
+}
+
+.about-image {
+    margin-right: 500px; /* Add spacing between text and image (adjust as needed) */
+
+}
+/* Style the project boxes */
+.project-box {
+    display: inline-block;
+    margin: 10px; /* Add spacing between boxes */
+    border: 2px solid #00ffcc; /* Border color for the boxes */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for the boxes */
+    transition: all 0.3s ease-in-out; /* Add a smooth transition effect for all properties */
+    position: relative; /* Position for pseudo-elements */
+    overflow: hidden; /* Hide overflowing content */
+    text-decoration: none; /* Remove underlines from the anchor */
+    color: #ffffff; /* Text color */
+}
+
+/* Style the project links */
+.project-link {
+    text-decoration: none; /* Remove underlines from the link */
+    color: #00ffcc; /* Link color */
+    display: block; /* Display the link as a block element */
+    margin-top: 10px; /* Add space between the image and the link */
+}
+
+/* Style the project images */
+.project-image {
+    max-width: 100%; /* Make sure images don't exceed their container width */
+    max-height: 150px; /* Set the maximum height of the images */
+    display: block; /* Remove extra spacing below images */
+    margin: 0 auto; /* Center-align images horizontally */
+    transition: opacity 0.3s ease-in-out; /* Add a transition for opacity change */
+}
+
+/* Hover effect for the project boxes */
+.project-box:hover {
+    border-color: #008080; /* Change the border color on hover */
+    transform: translateY(-10px) scale(1.05); /* Move up and increase size */
+}
+
+/* Hover effect for the project links */
+.project-box:hover .project-link {
+    color: #008080; /* Change the link color on hover */
+}
+
+/* Pseudo-element for the left arrow icon */
+.project-box::after {
+    content: "\2192"; /* Left arrow character (Unicode) */
+    font-size: 75px; /* Set the font size to 100 pixels */
+    position: absolute;
+    top: 45%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out; /* Add a transition for color change */
+    color: #008080; /* Fixed color for the arrow */
+}
+
+/* Show the left arrow icon on hover and change its color to match the box */
+.project-box:hover::after {
+    opacity: 1; /* Make the arrow visible on hover */
+    color: #008080; /* Change the color to match the box color on hover */
+}
+.project-box:hover .project-image {
+    opacity: 0.7; /* Reduce image opacity on hover */
+    transition: opacity 0.3s ease-in-out; /* Add a transition for opacity change */
+}
+
+
+
+
+/* Custom styles for other page elements */
+/* Customize further based on your content and preferences */

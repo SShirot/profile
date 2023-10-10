@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Include custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+        /* Apply the purple background color to the entire page */
+        body {
+            background-image: url('./img.png');
+            background-color: #8a2be2; /* Purple background color */
+            font-family: Arial, sans-serif;
+            color: #ffffff; /* Text color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Navbar styles */
+        nav {
+            background-color: rgba(6, 7, 63, 0.5); /* Semi-transparent black background for the navbar */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ffcc; /* Change link color on hover */
+        }
+
+        /* Header styles */
+        header {
+            background-color: transparent; /* Make the header background transparent */
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.5em;
+        }
+
+        /* About Section styles */
+        #about {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* GitHub Projects Section styles */
+        #github-projects {
+            background-color: rgba(6, 7, 63, 0.5); /* Semi-transparent black background for the GitHub projects section */
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #github-projects h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav>
+    <div class="container">
+        <a href="#">Khac Huy</a>
+        <a href="#about">About</a>
+        <a href="#github-projects">GitHub Projects</a>
+        <!-- Removed the link to the contact section -->
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header>
+    <div class="container">
+        <h1>Nguyen Khac Huy</h1>
+        <p>AI Engineer | Data Scientist | Freelancer</p>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm Nguyen Khac Huy, I'm an undergraduate at HCMUTE university.</p>
+                <p>GitHub: <a href="https://github.com/SShirot">https://github.com/SShirot</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/khachuy.nguyen.58726">https://www.facebook.com/khachuy.nguyen.58726</a></p>
+                <p>Gmail: <a href="https://mail.google.com">hudony00800@gmail.com</a></p>
+            </div>
+            <div class="about-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_x3CgaGYGDYwo97rnKPyd5dUndB1kaNvzPCgx55E2apOi5k8kLHQVSMAfYYVSQN0Q5MU&usqp=CAU" alt="Profile Picture" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- GitHub Projects Section -->
+<section id="github-projects">
+    <div class="container">
+        <h2>GitHub Projects</h2>
+        <!-- Add links and images to your GitHub projects here -->
+        <!-- Example: -->
+        <div class="project-box" onclick="redirectToLink('https://surveyweb.onrender.com/WebAppWeek4')">
+            <div class="project-content">
+                <img src="images/project1.jpg" alt="Project 1 Image" class="proj    ect-image">
+                <a href="https://surveyweb.onrender.com/WebAppWeek4" class="project-link">Project 1</a>
+            </div>
+        </div>
+        <div class="project-box" onclick="redirectToLink('https://github.com/SShirot/project2')">
+            <div class="project-content">
+                <img src="images/project2.jpg" alt="Project 2 Image" class="project-image">
+                <a href="https://github.com/SShirot/project2" class="project-link">Project 2</a>
+            </div>
+        </div>
+        <div class="project-box" onclick="redirectToLink('https://github.com/SShirot/project3')">
+            <div class="project-content">
+                <img src="images/project3.jpg" alt="Project 3 Image" class="project-image">
+                <a href="https://github.com/SShirot/project3" class="project-link">Project 3</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
