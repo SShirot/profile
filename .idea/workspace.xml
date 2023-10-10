@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d33ed4-97d9-4feb-aad0-42d2e000df1a" name="Changes" comment="first cmm">
-      <change afterPath="$PROJECT_DIR$/profile-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,7 @@
       <workItem from="1696395799302" duration="1097000" />
       <workItem from="1696406326681" duration="639000" />
       <workItem from="1696406978711" duration="835000" />
-      <workItem from="1696916226245" duration="5661000" />
+      <workItem from="1696916226245" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="first cmm">
       <option name="closed" value="true" />
