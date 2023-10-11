@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d33ed4-97d9-4feb-aad0-42d2e000df1a" name="Changes" comment="first cmm">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -63,7 +61,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "16.16.0",
     "javascript.nodejs.core.library.typings.version": "16.18.58",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/profile/src/main/webapp/index.html",
+    "last_opened_file_path": "C:/murach/servlet_and_jsp/netbeans/ex_solutions/ch05_ex2_email_sol",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -183,7 +181,8 @@
       <workItem from="1696395799302" duration="1097000" />
       <workItem from="1696406326681" duration="639000" />
       <workItem from="1696406978711" duration="835000" />
-      <workItem from="1696916226245" duration="8677000" />
+      <workItem from="1696916226245" duration="9540000" />
+      <workItem from="1697007770050" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="first cmm">
       <option name="closed" value="true" />
