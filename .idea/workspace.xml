@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d33ed4-97d9-4feb-aad0-42d2e000df1a" name="Changes" comment="first cmm">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
@@ -190,6 +191,7 @@
       <workItem from="1697013307927" duration="22000" />
       <workItem from="1697013361738" duration="13000" />
       <workItem from="1697014196667" duration="3651000" />
+      <workItem from="1698197273489" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="first cmm">
       <option name="closed" value="true" />
