@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d33ed4-97d9-4feb-aad0-42d2e000df1a" name="Changes" comment="first cmm">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.16.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.58&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/WebITpj&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -191,7 +189,11 @@
       <workItem from="1697013307927" duration="22000" />
       <workItem from="1697013361738" duration="13000" />
       <workItem from="1697014196667" duration="3651000" />
-      <workItem from="1698197273489" duration="177000" />
+      <workItem from="1698197273489" duration="810000" />
+      <workItem from="1698764108272" duration="70000" />
+      <workItem from="1699085411437" duration="428000" />
+      <workItem from="1699085868572" duration="11000" />
+      <workItem from="1700026057903" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="first cmm">
       <option name="closed" value="true" />
